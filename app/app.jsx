@@ -6,6 +6,10 @@ import {
 import Main from 'Main';
 import Nav from 'Nav';
 
+// load foundation
+import 'style-loader!css-loader!foundation-sites/dist/css/foundation.min.css';
+$(document).foundation();
+
 ReactDOM.render((
   <HashRouter>
     <div>
