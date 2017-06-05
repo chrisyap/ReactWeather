@@ -10,7 +10,6 @@ import Examples from 'Examples';
 var Main = (props) => {
   return (
     <main>
-      <h1>Main component</h1>
       <Switch>
        <Route exact path='/' component={Weather}/>
        <Route exact path='/about' component={About}/>

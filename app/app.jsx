@@ -14,7 +14,11 @@ ReactDOM.render((
   <HashRouter>
     <div>
       <Nav />
-      <Main />
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
+          <Main />
+        </div>
+      </div>
     </div>
   </HashRouter>
 ), document.getElementById('app'));
