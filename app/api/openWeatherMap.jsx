@@ -18,9 +18,9 @@ module.exports = {
         return data;
       }
     },function(res){
-      debugger;
-      // throw new Error(res.data.message);
-      throw new Error('City not found');
+      // debugger;
+      throw new Error(res.data.message);
+      // throw new Error('City not found');
     });
   }
 }
