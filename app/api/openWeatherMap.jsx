@@ -17,10 +17,10 @@ module.exports = {
         data.name = res.data.name;
         return data;
       }
-    },function(res){
+    },function(err){
       // debugger;
-      throw new Error(res.data.message);
-      // throw new Error('City not found');
+      // throw new Error(err.response.data.message);
+      throw new Error('Unable to fetch weather for that location');
     });
   }
 }
