@@ -10,6 +10,9 @@ import Nav from 'Nav';
 import 'style-loader!css-loader!foundation-sites/dist/css/foundation.min.css';
 $(document).foundation();
 
+//App css
+import 'style-loader!css-loader!applicationStyles';
+
 ReactDOM.render((
   <HashRouter>
     <div>
